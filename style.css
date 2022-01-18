@@ -79,8 +79,8 @@ body {
 }
 
 .desc {
-  font-size: 18px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 217, 255);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 .sm a {
-  color: black;
+  color: rgb(21, 255, 0);
   width: 56px;
   font-size: 22px;
   transition: 0.3s linear;
@@ -155,7 +155,7 @@ body {
 @keyframes color2 {
   0%,
   100% {
-    color: #00ff6a;
+    color: #fdfdfd;
   }
   10% {
     color: #ff9100;
@@ -165,11 +165,11 @@ body {
     color: #07d8fd;
   }
   60% {
-    color: #00ff15;
+    color: #f707ff;
   }
 
   90% {
-    color: #00faed;
+    color: #ff0000;
   }
 }
 @keyframes color3 {
@@ -344,14 +344,3 @@ body {
   }
 }
 /* ok */
-.fas {
-  font-size: 17px;
-  color: white;
-  width: 25px;
-  height: 25px;
-  line-height: 20px;
-  border: white 3px solid;
-  border-radius: 100%;
-  background-color: #1877f2;
-  font-family: "Font Awesome 5 Free";
-}

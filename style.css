@@ -344,3 +344,8 @@ body {
   }
 }
 /* ok */
+button:hover a {
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+

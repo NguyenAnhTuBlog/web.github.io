@@ -21,11 +21,13 @@ body {
   text-align: center;
   border-radius: 8px;
   overflow: hidden;
+  align-items: center;
 }
 
 .card-header {
-  background: #e3edf7;
-  padding: 30px 20px;
+  background: url();
+  align-items: center;
+  padding: 10px 0px;
   border: 2px solid red;
   animation: color1 linear infinite 2s;
 }
@@ -99,11 +101,13 @@ body {
   color: #e66767;
 }
 .lh a {
+  text-align: center;
   color: white;
   font-size: 15px;
   transition: 0.3s linear;
 }
 .lh {
+  align-items: center;
   border: black solid 1px;
   border-radius: 7px 7px 7px 7px;
   width: 270px;
@@ -338,4 +342,16 @@ body {
     -webkit-transform: translate3d(5%, 100%, 0);
     transform: translate3d(5%, 100%, 0);
   }
+}
+/* ok */
+.fas {
+  font-size: 17px;
+  color: white;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  border: white 3px solid;
+  border-radius: 100%;
+  background-color: #1877f2;
+  font-family: "Font Awesome 5 Free";
 }
